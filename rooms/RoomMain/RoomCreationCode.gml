@@ -1,0 +1,4 @@
+if(InDebug)
+{
+    __DebugPreRun();
+}

@@ -1,0 +1,533 @@
+Converting GML script: MACRO: AssetsDir
+Converted string - line 1: "LIB\Assets\" -> "LIB\\Assets\\"
+
+Converting GML script: MACRO: LevelsDir
+Converted string - line 1: "LIB\Levels\" -> "LIB\\Levels\\"
+
+Converting GML script: ${project_dir}\scripts\LevelThingsCreate\LevelThingsCreate.gml
+Converted description /// @description LevelThingsCreate(xpos,ypos,zpos,ObjInd)/// @param xpos
+/// @param ypos
+/// @param zpos
+/// @param ObjInd
+
+Converting GML script: ${project_dir}\scripts\LevelThingsGetType\LevelThingsGetType.gml
+Converted description /// @description LevelThingsGetType(object_index)/// @param object_index
+
+Converting GML script: ${project_dir}\scripts\GetWeaponName\GetWeaponName.gml
+Converted description /// @description GetWeaponName(WeaponId)/// @param WeaponId
+
+Converting GML script: ${project_dir}\scripts\GetWeaponTips\GetWeaponTips.gml
+Converted description /// @description GetWeaponName(WeaponId)/// @param WeaponId
+
+Converting GML script: ${project_dir}\scripts\GetWeaponSprite\GetWeaponSprite.gml
+Converted description /// @description WeaponIdTosprite(WeaponId)/// @param WeaponId
+
+Converting GML script: ${project_dir}\scripts\GetWeaponHeavy\GetWeaponHeavy.gml
+Converted description /// @description GetWeaponHeavy(WeaponId)/// @param WeaponId
+
+Converting GML script: ${project_dir}\scripts\GetWeaponNumber\GetWeaponNumber.gml
+Converted description /// @description GetWeaponNumber(Weapon)/// @param Weapon
+
+Converting GML script: ${project_dir}\scripts\CardSetWeapon\CardSetWeapon.gml
+Converted description /// @description CardSetType(Card,WeaponId)/// @param Card
+/// @param WeaponId
+
+Converting GML script: ${project_dir}\scripts\CreateWeaponAxis\CreateWeaponAxis.gml
+Converted description /// @description CreateWeaponAxis(real Ax_x,real Ax_y,real zpos,real WeaponId) : real InsID/// @param real Ax_x
+/// @param real Ax_y
+/// @param real zpos
+/// @param real WeaponId
+
+Converting GML script: ${project_dir}\scripts\RegWeapon\RegWeapon.gml
+Converted description /// @description RegWeapon(cost,cd,weight,ObjIndex)/// @param cost
+/// @param cd
+/// @param weight
+/// @param ObjIndex
+
+Converting GML script: ${project_dir}\scripts\PlaceWeapon\PlaceWeapon.gml
+Converted description /// @description PlaceWeapon(Weaponid,BoxID)/// @param Weaponid
+/// @param BoxID
+
+Converting GML script: ${project_dir}\scripts\CreateDeathParticle\CreateDeathParticle.gml
+Converted description /// @description CreateDeathParticle(x1,x2,y1,y2,Amount)/// @param x1
+/// @param x2
+/// @param y1
+/// @param y2
+/// @param Amount
+
+Converting GML script: ${project_dir}\scripts\SummonZombie\SummonZombie.gml
+Converted description /// @description SummonZombie(ZombieInd,SummonRow,SummonLine)/// @param ZombieInd
+/// @param SummonRow
+/// @param SummonLine
+
+Converting GML script: ${project_dir}\scripts\GetEnemyObj\GetEnemyObj.gml
+Converted description /// @description GetEnemyObj(EnemyId)/// @param EnemyId
+
+Converting GML script: ${project_dir}\scripts\GetEnemyHeavy\GetEnemyHeavy.gml
+Converted description /// @description GetEnemyHeavy(EnemyId)/// @param EnemyId
+
+Converting GML script: ${project_dir}\scripts\GetEnemyPoints\GetEnemyPoints.gml
+Converted description /// @description GetEnemyPoints(LevelEnemyID)/// @param LevelEnemyID
+
+Converting GML script: ${project_dir}\scripts\GetEnemyInd\GetEnemyInd.gml
+Converted description /// @description GetEnemyInd(Object_index)/// @param Object_index
+
+Converting GML script: ${project_dir}\scripts\Hurt\Hurt.gml
+Converted description /// @description Hurt(Amount,Type)/// @param Amount
+/// @param Type
+
+Converting GML script: ${project_dir}\scripts\Boom\Boom.gml
+Converted description /// @description Boom(real: x,real: y,real: range,real: hp,real: type)/// @param real: x
+/// @param real: y
+/// @param real: range
+/// @param real: hp
+/// @param real: type
+
+Converting GML script: ${project_dir}\scripts\DropAward\DropAward.gml
+Converted description /// @description DropCard(CardId)/// @param CardId
+
+Converting GML script: ${project_dir}\scripts\PoolFindZombie\PoolFindZombie.gml
+Converted description /// @description PoolFindZombie(dsZombies,Points)/// @param dsZombies
+/// @param Points
+
+Converting GML script: ${project_dir}\scripts\LevelGUICreate\LevelGUICreate.gml
+Converted builtin - line 6: view_xview -> __view_get( e__VW.XView, 0 )
+Converted description /// @description LevelGUICreate()
+
+Converting GML script: ${project_dir}\scripts\LevelGUIDestroy\LevelGUIDestroy.gml
+Converted description /// @description LevelGUICreate()
+
+Converting GML script: ${project_dir}\scripts\LevelGUIDeactive\LevelGUIDeactive.gml
+Converted description /// @description LevelGUICreate()
+
+Converting GML script: ${project_dir}\scripts\LevelGUIActive\LevelGUIActive.gml
+Converted description /// @description LevelGUICreate()
+
+Converting GML script: ${project_dir}\scripts\ReadySetCreate\ReadySetCreate.gml
+Converted description /// @description ReadySetCreate()
+
+Converting GML script: ${project_dir}\scripts\Title\Title.gml
+Converted description /// @description Title(txt)/// @param txt
+
+Converting GML script: ${project_dir}\scripts\ViewShake\ViewShake.gml
+Converted description /// @description ViewShake(ShakeTime,Shaker)/// @param ShakeTime
+/// @param Shaker
+
+Converting GML script: ${project_dir}\scripts\MessageBox\MessageBox.gml
+Converted description /// @description MessageBox(Text,Scale=1,Always=true)/// @param Text
+/// @param Scale=1
+/// @param Always=true
+
+Converting GML script: ${project_dir}\scripts\CardDrawInformation\CardDrawInformation.gml
+Converted description /// @description CardDrawInformation(x,y,Info | Tips:x&yIsTheCentreOfTheTop)/// @param x
+/// @param y
+/// @param Info | Tips:x&yIsTheCentreOfTheTop
+
+Converting GML script: ${project_dir}\scripts\LockCard\LockCard.gml
+Converted description /// @description LockCard()
+
+Converting GML script: ${project_dir}\scripts\UnlockCard\UnlockCard.gml
+Converted description /// @description LockCard()
+
+Converting GML script: ${project_dir}\scripts\lvlItem\lvlItem.gml
+Converted description /// @description lvlItem(HandItem Id);/// @param HandItem Id
+
+Converting GML script: ${project_dir}\scripts\LevelGoto\LevelGoto.gml
+Converted description /// @description LevelGoto(ChapterIndex,LevelIndex)/// @param ChapterIndex
+/// @param LevelIndex
+
+Converting GML script: ${project_dir}\scripts\Tid\Tid.gml
+Converted description /// @description Tid(TID) : format TID to ObjId/// @param TID
+
+Converting GML script: ${project_dir}\scripts\LevelEnd\LevelEnd.gml
+Converted description /// @description LevelEnd();
+
+Converting GML script: ${project_dir}\scripts\T\T.gml
+Converted description /// @description Text(NameInText.rc)/// @param NameInText.rc
+
+Converting GML script: ${project_dir}\scripts\RedstoneAdd\RedstoneAdd.gml
+Converted description /// @description RedstoneAdd(real: Number)/// @param real: Number
+
+Converting GML script: ${project_dir}\scripts\RedstoneSet\RedstoneSet.gml
+Converted description /// @description RedstoneSet(real: Number)/// @param real: Number
+
+Converting GML script: ${project_dir}\scripts\LockSummoner\LockSummoner.gml
+Converted description /// @description LockSummoner()
+
+Converting GML script: ${project_dir}\scripts\UnlockSummoner\UnlockSummoner.gml
+Converted description /// @description UnlockSummoner()
+
+Converting GML script: ${project_dir}\scripts\ScrTourialCtrl\ScrTourialCtrl.gml
+Converted description /// @description ScrTourialCtrl
+
+Converting GML script: ${project_dir}\scripts\ScrLevelCtrlCardChosingViewCtrl\ScrLevelCtrlCardChosingViewCtrl.gml
+Converted description /// @description 选卡阶段控制
+
+Converting GML script: ${project_dir}\scripts\AddTimer\AddTimer.gml
+Converted description /// @description AddTimer(time)/// @param time
+
+Converting GML script: ${project_dir}\scripts\DeleteTimer\DeleteTimer.gml
+Converted description /// @description DeleteTimer(ID)/// @param ID
+
+Converting GML script: ${project_dir}\scripts\file_create\file_create.gml
+Converted description /// @description file_create(filename)/// @param filename
+
+Converting GML script: ${project_dir}\scripts\FileEncode\FileEncode.gml
+Converted description /// @description FileEncode(File)/// @param File
+
+Converting GML script: ${project_dir}\scripts\FileReadAll\FileReadAll.gml
+Converted description /// @description FileReadAll(File)/// @param File
+
+Converting GML script: ${project_dir}\scripts\FileCryptReadAll\FileCryptReadAll.gml
+Converted description /// @description FileCryptReadAll(FileName)/// @param FileName
+
+Converting GML script: ${project_dir}\scripts\format\format.gml
+Error: variable 'variable_instance_get' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Converted description /// @description format(String,arg1,arg2.....)/// @param String
+/// @param arg1
+/// @param arg2.....
+
+Converting GML script: ${project_dir}\scripts\DebugOut\DebugOut.gml
+Converted description /// @description DebugOut(DebugMessage)/// @param DebugMessage
+
+Converting GML script: ${project_dir}\scripts\DsListFindValueRandom\DsListFindValueRandom.gml
+Converted description /// @description DsListFindValueRandom(ds_list)/// @param ds_list
+
+Converting GML script: ${project_dir}\scripts\DebugOutList\DebugOutList.gml
+Converted description /// @description DebugOutList(list)/// @param list
+
+Converting GML script: ${project_dir}\scripts\ShaderSendValue\ShaderSendValue.gml
+Converted description /// @description ShaderSendValue(ShaderId,VariableNameInShader,Value)/// @param ShaderId
+/// @param VariableNameInShader
+/// @param Value
+
+Converting GML script: ${project_dir}\scripts\MouseOnMe\MouseOnMe.gml
+Converted description /// @description MouseOnMe()
+
+Converting GML script: ${project_dir}\scripts\ResourcePackLoad\ResourcePackLoad.gml
+Converted description /// @description ResourcePackLoad(ResPakFileName)/// @param ResPakFileName
+Converted string - line 12: "Temp\" -> "Temp\\"
+Converted string - line 19: "Temp\" -> "Temp\\"
+Converted string - line 30: "Temp\" -> "Temp\\"
+
+Converting GML script: ${project_dir}\scripts\free\free.gml
+Converted description /// @description free(id=self.id)/// @param id=self.id
+
+Converting GML script: ${project_dir}\scripts\MusicPlay\MusicPlay.gml
+Converted description /// @description MusicPlay(MusicFileName)/// @param MusicFileName
+Converted string - line 10: "LIB\Music\{}.ogg" -> "LIB\\Music\\{}.ogg"
+
+Converting GML script: ${project_dir}\scripts\GetChapterCodeName\GetChapterCodeName.gml
+Converted description /// @description GetChapterCodeName(Chap)/// @param Chap
+
+Converting GML script: ${project_dir}\scripts\GetChapterName\GetChapterName.gml
+Converted description /// @description GetChapterName(ChapterName)/// @param ChapterName
+
+Converting GML script: ${project_dir}\scripts\GotoChapterMap\GotoChapterMap.gml
+Converted description /// @description GotoChapterMap(ChapterID)/// @param ChapterID
+
+Converting GML script: ${project_dir}\scripts\GetChapterMapRoom\GetChapterMapRoom.gml
+Converted description /// @description GetChapterMapRoom(ChapterID)/// @param ChapterID
+
+Converting GML script: ${project_dir}\scripts\RegChapter\RegChapter.gml
+Converted description /// @description RegChapter(name,RoomMap,RoomLevel)/// @param name
+/// @param RoomMap
+/// @param RoomLevel
+
+Converting GML script: ${project_dir}\scripts\PlotExists\PlotExists.gml
+Converted description /// @description PlotExists(Head)/// @param Head
+
+Converting GML script: ${project_dir}\scripts\ShowPlot\ShowPlot.gml
+Converted description /// @description ShowPlot(PlotHead)/// @param PlotHead
+
+Converting GML script: ${project_dir}\scripts\GetPlot\GetPlot.gml
+Converted description /// @description GetPlot(Head) : return PlotList/// @param Head
+
+Converting GML script: ${project_dir}\scripts\RefreshPlot\RefreshPlot.gml
+Converted description /// @description RefreshPlot()
+
+Converting GML script: ${project_dir}\scripts\CreateGuideArrow\CreateGuideArrow.gml
+Converted description /// @description CreateGuideArrow(PointX,PointY,direction(degree))/// @param PointX
+/// @param PointY
+/// @param direction(degree
+
+Converting GML script: ${project_dir}\scripts\HaveHandItem\HaveHandItem.gml
+Converted description /// @description HaveHandItemWeapon(lvl.?)/// @param lvl.?
+
+Converting GML script: ${project_dir}\scripts\Dsum\Dsum.gml
+Converted description /// @description Dsum(Num1,Num2)/// @param Num1
+/// @param Num2
+
+Converting GML script: ${project_dir}\scripts\AlineNum\AlineNum.gml
+Converted description /// @description AlineNum(Number,AlineTo)/// @param Number
+/// @param AlineTo
+
+Converting GML script: ${project_dir}\scripts\GMU_Anim_Stop\GMU_Anim_Stop.gml
+Converted description /// @description @arg target
+
+Converting GML script: ${project_dir}\scripts\GMU_Anim_New\GMU_Anim_New.gml
+Error: variable 'variable_instance_exists' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'variable_global_exists' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Converted description /// @description GMU_Anim_New(target, var_name, tween, ease, start, change, duration, delay, arg1, arg2*);/// @param target
+/// @param  var_name
+/// @param  tween
+/// @param  ease
+/// @param  start
+/// @param  change
+/// @param  duration
+/// @param  delay
+/// @param  arg1
+/// @param  arg2*
+
+Converting GML script: ${project_dir}\scripts\GMU_Anim_New_To\GMU_Anim_New_To.gml
+Error: variable 'variable_instance_get' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Converted description /// @description GMU_Anim_New_To(target, var_name, tween, ease, changeto, duration, delay);/// @param target
+/// @param  var_name
+/// @param  tween
+/// @param  ease
+/// @param  changeto
+/// @param  duration
+/// @param  delay
+
+Converting GML script: ${project_dir}\scripts\GMU_Anim_Skip\GMU_Anim_Skip.gml
+Error: variable 'variable_instance_set' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'variable_global_set' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Converted description /// @description GMU_Anim_Skip(target,var_name)/// @param target
+/// @param var_name
+
+Converting GML script: ${project_dir}\scripts\GMU_Anim_IsExists\GMU_Anim_IsExists.gml
+Converted description /// @description GMU_Anim_IsExists(target,*var_name)/// @param target
+/// @param *var_name
+
+Converting GML script: ${project_dir}\objects\UObjGameRunning\Create_0.gml
+Converted description /// @description Debug输出的文件
+Converted string - line 6: "Log\{0}.{1}.{2} {3}.{4}.{5} Game.mlog" -> "Log\\{0}.{1}.{2} {3}.{4}.{5} Game.mlog"
+Converted string - line 101: "User\{0}.dat" -> "User\\{0}.dat"
+Converted string - line 105: "LIB\{}Texts.Rc" -> "LIB\\{}Texts.Rc"
+Converted string - line 140: "LIB\Enemys.Rc" -> "LIB\\Enemys.Rc"
+Converted string - line 151: "LIB\{}Texts.Rc" -> "LIB\\{}Texts.Rc"
+Converted string - line 156: "LIB\{}Plot.Rc" -> "LIB\\{}Plot.Rc"
+
+Converting GML script: ${project_dir}\objects\UObjGameRunning\Other_3.gml
+Converted string - line 4: "User\{0}.dat" -> "User\\{0}.dat"
+
+Converting GML script: ${project_dir}\objects\ObjLevelCtrl\Create_0.gml
+Converted builtin - line 123: view_xview = XPreview -> __view_set( e__VW.XView, 0, XPreview )
+Converted description /// @description 杂七杂八的关卡初始化
+
+Converting GML script: ${project_dir}\objects\ObjLevelCtrl\Step_1.gml
+Converted builtin - line 14: view_xview = BasicViewX -> __view_set( e__VW.XView, 0, BasicViewX )
+Converted builtin - line 15: view_yview = BasicViewY -> __view_set( e__VW.YView, 0, BasicViewY )
+
+Converting GML script: ${project_dir}\objects\ObjLevelCtrl\Step_0.gml
+Converted builtin - line 9: view_xview = BasicViewX+irandom(ShakerView) -> __view_set( e__VW.XView, 0, BasicViewX+irandom(ShakerView) )
+Converted builtin - line 104: view_xview = XPreview -> __view_set( e__VW.XView, 0, XPreview )
+Converted builtin - line 10: view_yview = BasicViewY+irandom(ShakerView) -> __view_set( e__VW.YView, 0, BasicViewY+irandom(ShakerView) )
+Converted description /// @description 普通
+
+Converting GML script: ${project_dir}\objects\ObjLevelCtrl\Other_10.gml
+Converted description /// @description 关卡结束
+
+Converting GML script: ${project_dir}\objects\ObjLevelUpDrawer\Draw_0.gml
+Converted builtin - line 16: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 87: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 89: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 16: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 88: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 90: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 89: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 90: view_hview -> __view_get( e__VW.HView, 0 )
+Converted description /// @description with ObjLevelCtrl
+
+Converting GML script: ${project_dir}\objects\ObjFurnace\Create_0.gml
+Converted description /// @description 粒子系统创建
+
+Converting GML script: ${project_dir}\objects\ObjFurnace\Step_0.gml
+Converted description /// @description Alarm倒计时
+
+Converting GML script: ${project_dir}\objects\ObjArrowBag\Other_10.gml
+Converted description /// @description when placed
+
+Converting GML script: ${project_dir}\objects\ObjDropAward\Other_10.gml
+Converted builtin - line 3: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 3: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 4: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\ObjMessageBox\Step_0.gml
+Converted builtin - line 2: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_wview -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: ${project_dir}\objects\ObjTitle\Create_0.gml
+Converted builtin - line 3: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 3: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 4: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\ObjReadySet\Create_0.gml
+Converted builtin - line 7: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 8: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 7: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 8: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\ObjReadySet\Step_0.gml
+Converted builtin - line 9: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 10: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 9: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 10: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\ObjCharacter\Step_0.gml
+Converted builtin - line 14: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 15: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 15: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\ObjDialog\Create_0.gml
+Converted builtin - line 7: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 8: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 7: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 8: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\_gmu_anim\Step_0.gml
+Error: variable 'variable_instance_set' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'variable_global_set' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Converting GML script: ${project_dir}\objects\_gmu_anim\Other_10.gml
+Error: variable 'variable_instance_set' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'variable_global_set' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Converting GML script: Apollo.gml
+Converted description /// @description  (pointer, type)/// @param pointer
+/// @param  type
+
+Converting GML script: Apollo.gml
+Converted description /// @description  (value) : For generating returned booleans for Lua, returns lua_true\lua_false/// @param value
+
+Converting GML script: Apollo.gml
+Converted description /// @description  (value) : Prints a value as expression (e.g. for errors)/// @param value
+Converted string - line 5: '"' -> "\""
+Converted string - line 9: '"' -> "\""
+Converted string - line 9: '"' -> "\""
+
+Converting GML script: Apollo.gml
+Converted description /// @description  (buf, value, depth = 0)/// @param buf
+/// @param  value
+/// @param  depth = 0
+
+Converting GML script: Apollo.gml
+Converted description /// @description  luabridge_read(buf)/// @param buf
+
+Converting GML script: Apollo.gml
+Converted description /// @description  (script, args:array)/// @param script
+/// @param  args:array
+
+Converting GML script: Apollo.gml
+Converted description /// @description  (state, status)/// @param state
+/// @param  status
+
+Converting GML script: Apollo.gml
+Converted description /// @description  (...values): Returns one or more values back to Lua code./// @param ...values
+
+Converting GML script: Apollo.gml
+Converted description /// @description  (values:array) : Returns the contents of an array as a multi-value return./// @param values:array
+
+Converting GML script: Apollo.gml
+Converted description /// @description  (...values): Adds one or more values to the list of returned values./// @param ...values
+
+Converting GML script: Apollo.gml
+Converted description /// @description  (state_id, name):/// @param state_id
+/// @param  name
+
+Converting GML script: Apollo.gml
+Converted description /// @description  (state_id, name, value):/// @param state_id
+/// @param  name
+/// @param  value
+
+Converting GML script: Apollo.gml
+Converted description /// @description  (state_id, name):/// @param state_id
+/// @param  name
+
+Converting GML script: Apollo.gml
+Converted description /// @description  (state_id, func, ...args):/// @param state_id
+/// @param  func
+/// @param  ...args
+
+Converting GML script: Apollo.gml
+Converted description /// @description  (state_id, func, args:array):/// @param state_id
+/// @param  func
+/// @param  args:array
+
+Converting GML script: Apollo.gml
+Converted description /// @description  (state_id, func, ...args):/// @param state_id
+/// @param  func
+/// @param  ...args
+
+Converting GML script: Apollo.gml
+Converted description /// @description  (state_id, func, args:array):/// @param state_id
+/// @param  func
+/// @param  args:array
+
+Converting GML script: Apollo.gml
+Converted description /// @description  (state_id):/// @param state_id
+
+Converting GML script: Apollo.gml
+Converted description /// @description  (state_id, code):/// @param state_id
+/// @param  code
+
+Converting GML script: Apollo.gml
+Converted description /// @description  (state_id, path):/// @param state_id
+/// @param  path
+Converted string - line 16: "\" -> "\\"
+Converted string - line 17: "\" -> "\\"
+
+Missing audiogroup for sound: 'SndFrameRemove2' - setting to default audio group
+Missing audiogroup for sound: 'SndFrameRemove3' - setting to default audio group
+Missing audiogroup for sound: 'SndFrameRemove4' - setting to default audio group
+Missing audiogroup for sound: 'SndFrameRemove1' - setting to default audio group
+Missing audiogroup for sound: 'SndHugeWave' - setting to default audio group
+Missing audiogroup for sound: 'SndReadySetPlant' - setting to default audio group
+Missing audiogroup for sound: 'SndFinalWave' - setting to default audio group
+Missing audiogroup for sound: 'SndGetRedstone' - setting to default audio group
+Missing audiogroup for sound: 'SndTap' - setting to default audio group
+Missing audiogroup for sound: 'SndCardPick' - setting to default audio group
+Missing audiogroup for sound: 'SndNotAllow' - setting to default audio group
+Missing audiogroup for sound: 'SndTap2' - setting to default audio group
+Missing audiogroup for sound: 'SndPickaxePick' - setting to default audio group
+Missing audiogroup for sound: 'SndZombieHurt2' - setting to default audio group
+Missing audiogroup for sound: 'SndZombieHurt1' - setting to default audio group
+Missing audiogroup for sound: 'SndZombieDeath' - setting to default audio group
+Missing audiogroup for sound: 'SndZombieHurt3' - setting to default audio group
+Missing audiogroup for sound: 'SndLeatHurt2' - setting to default audio group
+Missing audiogroup for sound: 'SndLeatHurt1' - setting to default audio group
+Missing audiogroup for sound: 'SndIronHurt1' - setting to default audio group
+Missing audiogroup for sound: 'SndIronHurt2' - setting to default audio group
+Missing audiogroup for sound: 'SndAwooga' - setting to default audio group
+Missing audiogroup for sound: 'SndStoneBreak2' - setting to default audio group
+Missing audiogroup for sound: 'SndStoneBreak4' - setting to default audio group
+Missing audiogroup for sound: 'SndStoneBreak3' - setting to default audio group
+Missing audiogroup for sound: 'SndStoneBreak1' - setting to default audio group
+Missing audiogroup for sound: 'SndPlateInput' - setting to default audio group
+Missing audiogroup for sound: 'SndPlateIronGoldInput' - setting to default audio group
+Missing audiogroup for sound: 'SndPlateOutput' - setting to default audio group
+Missing audiogroup for sound: 'SndPlateIronGoldOutput' - setting to default audio group
+Missing audiogroup for sound: 'SndLose' - setting to default audio group
+Missing audiogroup for sound: 'SndLightFill' - setting to default audio group
+Missing audiogroup for sound: 'SndClick' - setting to default audio group
+Missing audiogroup for sound: 'SndWining' - setting to default audio group
+Missing audiogroup for sound: 'SndBoom1' - setting to default audio group
+Missing audiogroup for sound: 'SndBoom2' - setting to default audio group
+Missing audiogroup for sound: 'SndBoom4' - setting to default audio group
+Missing audiogroup for sound: 'SndBoom3' - setting to default audio group
+Missing audiogroup for sound: 'SndPortalOut' - setting to default audio group
+Missing audiogroup for sound: 'SndTalk' - setting to default audio group
+Game speed set to 30
+Added compatibility script 'draw/draw_set_blend_mode.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'texture/texture_set_interpolation.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'view/__view_set.gml'
+Added compatibility script 'view/__view_set_internal.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'

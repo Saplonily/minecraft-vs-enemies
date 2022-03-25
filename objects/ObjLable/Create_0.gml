@@ -1,0 +1,11 @@
+text = "";
+form = noone;
+alpha = 1;
+color = c_white;
+back = 0;
+ha = fa_left;
+va = fa_top;
+scale = 1;
+formFocus = 0;
+font = FTNormal;
+texfl = 0;
