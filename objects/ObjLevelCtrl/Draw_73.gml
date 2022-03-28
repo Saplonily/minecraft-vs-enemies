@@ -1,5 +1,6 @@
 /// @description 
 event_inherited();
+gpu_set_tex_filter(1);
 //Debug下的文字
 var str = "";
 if InDebug
@@ -59,3 +60,4 @@ if !InCardChosing
 	    }
 	}
 }
+gpu_set_tex_filter(0);

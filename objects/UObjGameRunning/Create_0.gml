@@ -130,7 +130,11 @@ global.FormsDepth = ds_list_create();
 
 
 #endregion
+#region 游戏窗口自适应
 
+WindowWidth = window_get_width();
+
+#endregion
 ///进入主界面
 room_goto(RoomMain);
 DebugOut("Have Gotten Into MainRoom");
