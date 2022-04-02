@@ -38,7 +38,23 @@ if InDebug
 
 #region 用户信息文件
 
+TimerSave = 0;
+gpu_set_tex_filter(false);
+function DoSave()
+{
+	DebugOut("-----Game Saving....");
+	ini_open(format("Users\\{0}",global.User));
+	SaveUserAllInfos();
+	ini_close();
+	ini_open("GameSettings.ini")
+	ini_write_string("Users","Select",global.User)
+	ini_close();
+	DebugOut("-----Game saved!");
+	file_text_close(DebugFile)
+	DebugFile = file_text_open_append(DebugFileName);
 
+
+}
 var File = "GameSettings.ini"
 //获取global.UserRc这个列表
 GetUsers();
@@ -82,14 +98,17 @@ DebugOut("Loading Fonts...");
 var c = get_timer();
 globalvar FTNormal;
 FTNormal = font_add(AssetsDir+"FontSongTi.ttf",12,0,0,0,65535);
+
 globalvar FTBig;
 FTBig = font_add(AssetsDir+"FontSongTi.ttf",16,0,0,0,65535);
 globalvar FTBlock;
 FTBlock = font_add(AssetsDir+"BlockPixel.ttf",20,0,0,0,65535);
 globalvar FTBlockBig;
 FTBlockBig = font_add(AssetsDir+"BlockPixel.ttf",40,0,0,0,65535);
-globalvar FTMinecraftNumbers;
-FTMinecraftNumbers = font_add_sprite(SprMinecraftFontNumbers,ord("0"),ord("9"),3)
+globalvar FTMinecraft;
+FTMinecraft = font_add(AssetsDir+"Minecraft.ttf",20,0,0,32,128);
+globalvar FTPixel;
+FTPixel = font_add(AssetsDir+"Pixel.ttf",20,0,0,0,65535);
 
 
 draw_set_font(FTNormal);

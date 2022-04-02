@@ -3,7 +3,9 @@
 function ScrAlarmInit()
 {
 	globalvar tick1;
+	tick1 = 1;
 	globalvar sec1;
+	sec1 = 30;
 }
 function AlarmRefresh()
 {

@@ -1,4 +1,5 @@
 event_inherited();
+if lvl.Pause exit;
 image_speed = !Locked;
 if !Locked 
 {

@@ -1,3 +1,4 @@
+if InLevel()&&lvl.Pause exit;
 if instance_exists(ObjDialog) exit;
 var c = ObjCharacter;
 if

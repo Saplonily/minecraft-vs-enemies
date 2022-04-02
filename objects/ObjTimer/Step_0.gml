@@ -1,3 +1,4 @@
+if lvl.Pause exit;
 Timer -= tick1;
 if(Timer<=0)
 {

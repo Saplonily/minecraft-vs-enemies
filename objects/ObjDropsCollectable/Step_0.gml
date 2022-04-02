@@ -1,4 +1,5 @@
 event_inherited();
+if lvl.Pause exit;
 if(MouseOnMe()&&!Picked&&lvl.GUICanTap)
 {
     lvl.MouseType = cr_handpoint;

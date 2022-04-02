@@ -1,5 +1,5 @@
 event_inherited();
-
+if lvl.Pause exit;
 if !InDeath
 {
     if InAttacking

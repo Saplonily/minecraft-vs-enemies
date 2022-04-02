@@ -1,3 +1,4 @@
+if lvl.Pause exit;
 if(GMU_Anim_IsExists(id,"ArrivingPercent"))
 {
     if(!Disappearing)

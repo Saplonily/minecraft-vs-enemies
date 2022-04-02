@@ -11,10 +11,12 @@ if(OnTalk && !Arrving && !Disappearing)
     //draw text
 	var alpha = (BlankAni==1)?(BlankAni):(BlankAni/2);
 	draw_set_alpha(alpha);
+	gpu_set_tex_filter(1);
     draw_text(x+sprite_width+20-sprite_get_xoffset(SprPlotBlank)-(1-BlankAni)*BlankOw/5,
     y+10-sprite_get_yoffset(SprPlotBlank)+BlankOh*(1-BlankAni)/5,
     string_hash_to_newline(Text)
     )
+	gpu_set_tex_filter(0);
 	draw_set_alpha(1);
     draw_set_color(c_white)
     

@@ -1,5 +1,5 @@
 event_inherited();
-
+if lvl.Pause exit;
 if lvl.RedStone<25
 {
     RedStoneRot = 0;

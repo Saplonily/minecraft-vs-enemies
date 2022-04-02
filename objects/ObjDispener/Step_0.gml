@@ -1,5 +1,5 @@
 event_inherited();
-
+if lvl.Pause exit;
 if AlarmShoot>0
     AlarmShoot -= 2*tick1;
 if AlarmShoot<=0

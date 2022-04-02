@@ -1,5 +1,8 @@
 /// @description
 #region 普通
+
+if lvl.Pause exit;
+
 event_inherited();
 SpeedViewY -= SpeedViewY/40*tick1
 SpeedViewX -= SpeedViewX/40*tick1

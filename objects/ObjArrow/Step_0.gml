@@ -1,5 +1,5 @@
 event_inherited();
-
+if lvl.Pause exit;
 xpos += SpeedFly*cos(degtorad(DirectionFly))*tick1;
 ypos -= SpeedFly*sin(degtorad(DirectionFly))*tick1;
 direction = DirectionFly;

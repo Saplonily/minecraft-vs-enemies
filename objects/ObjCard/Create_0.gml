@@ -11,3 +11,4 @@ Sprite = 0;
 MaxCD = 500;
 Locked = 0;
 
+ForShow = false;

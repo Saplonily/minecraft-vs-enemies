@@ -18,9 +18,9 @@ function SetToCenter(ins)
 	}
 	
 }
-function CreateOptionForm()
+function CreateOptionForm(dep)
 {
-	var of = instance_create_depth(0,0,GUIDepth,ObjForm);
+	var of = instance_create_depth(0,0,GUIDepth+dep,ObjForm);
 	SetToCenter(of);
 	var ct;
 	//音效lable
@@ -148,5 +148,5 @@ function CreateSavesForm()
 function CreatePauseForm()
 {
 	//偷懒了属于是
-	CreateOptionForm();
+	CreateOptionForm(-20000);
 }

@@ -1,5 +1,6 @@
 event_inherited();
-
+if ForShow exit;
+if lvl.Pause exit;
 if lvl.HandItem==id
 {
     lvl.HandItem=0;

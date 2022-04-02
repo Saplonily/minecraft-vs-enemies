@@ -1,4 +1,5 @@
 event_inherited();
+if lvl.Pause exit;
 if !Always
 {
     AlarmDisappear -= 1*tick1;

@@ -1,3 +1,4 @@
+if InLevel()&&lvl.Pause exit;
 if(instance_exists(_inst) || _inst==global)
 {
     if(_delay<=0)

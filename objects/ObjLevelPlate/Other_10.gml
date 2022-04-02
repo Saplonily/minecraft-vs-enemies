@@ -1,2 +1,2 @@
-LevelGoto(0,get_integer("Level?",1))
+LevelGoto(0,choose(1,2))
 

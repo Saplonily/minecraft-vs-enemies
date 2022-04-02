@@ -1,4 +1,5 @@
 event_inherited();
+if lvl.Pause exit;
 //如果上一帧和下一帧的重力不同
 if pBeheavy!=Beheavy
 {

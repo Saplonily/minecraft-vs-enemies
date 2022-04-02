@@ -1,3 +1,4 @@
+if lvl.Pause exit;
 if (NearInYpos(self.id,other.id))&&other.CanBeBullet&&other.HP>0
 {
     if !(CanCross)

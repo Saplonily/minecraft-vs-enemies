@@ -1,4 +1,5 @@
 event_inherited();
+if lvl.Pause exit;
 var D = degtorad(Dir);
 var xr,yr;
 xr = 15*cos(D);

@@ -1,3 +1,3 @@
 /// @description 
-//shader_set(ShdBlur);
-//ShaderSendValue(ShdBlur,"_Blur",0.01);
+//0~0.01
+//ShaderSendValue(ShdBlur,"_Blur",sin(get_timer()/100000)/50+0.02);

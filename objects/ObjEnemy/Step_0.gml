@@ -1,5 +1,5 @@
 event_inherited();
-
+if lvl.Pause exit;
 if HP<=0
     InDeath = 1;
 HP = min(HP,MAXHP);

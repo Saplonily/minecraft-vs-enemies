@@ -1,6 +1,7 @@
-event_inherited();
-Price = inf;
-Weapon = 0;
-Sprite = 0;
-CardSetWeapon(id,0)
+/// @description 
 
+// Inherit the parent event
+event_inherited();
+
+CardSetWeapon(id,1);
+ForShow = true;

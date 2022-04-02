@@ -1,4 +1,5 @@
 event_inherited();
+if lvl.Pause exit;
 Timer -= 1*tick1;
 if Timer<=-20
     instance_destroy();

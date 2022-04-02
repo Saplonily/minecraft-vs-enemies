@@ -1,6 +1,6 @@
 /// @description Alarm倒计时
 event_inherited();
-
+if lvl.Pause exit;
 
 AlarmFire -= 0.5*tick1;
 AlarmRedStone -= tick1+(instance_number(ObjFurnace)<=2)*tick1;

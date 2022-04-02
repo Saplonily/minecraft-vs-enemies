@@ -1,4 +1,6 @@
 event_inherited();
+if ForShow exit;
+if lvl.Pause exit;
 var notallowsound = 0;
 if lvl.HandItem==null&&!Locked&&lvl.GUICanTap
 {

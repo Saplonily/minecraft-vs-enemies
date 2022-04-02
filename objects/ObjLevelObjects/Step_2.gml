@@ -1,5 +1,5 @@
 event_inherited();
-
+if lvl.Pause exit;
 //放这里是因为防止出现步略过的事情发生
 
 //设置自己的x呈现坐标

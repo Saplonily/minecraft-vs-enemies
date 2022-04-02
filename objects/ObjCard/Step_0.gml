@@ -1,6 +1,7 @@
 event_inherited();
-
-if MouseOnMe()&&lvl.HandItem==null
+if ForShow exit;
+if lvl.Pause exit;
+if MouseOnMe()&&lvl.HandItem==null&&lvl.GUICanTap
 {
     lvl.MouseType = cr_handpoint;
 }
