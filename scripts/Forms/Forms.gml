@@ -151,7 +151,7 @@ function RefreshFormDepth()
 	var ls = global.FormsDepth;
 	for(var i = 0;i<size;i++)
 	{
-		SetFormDepth(ls[|i],-2*i+GUIDepth);
+		SetFormDepth(ls[|i],-2*i+GUIDepth-100);
 	}
 	if global.DoDebugOutFormsInfo 
 	{

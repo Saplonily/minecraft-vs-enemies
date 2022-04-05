@@ -80,6 +80,8 @@ global.musicVolumeAudio = 1;
 global.LevelProgress = "1_1";
 global.Language = "ChineseS";
 global.SetFps = 40;
+//Alarm相关
+ScrAlarmInit();
 if global.NotHaveUserName
 {
     global.User = "null";

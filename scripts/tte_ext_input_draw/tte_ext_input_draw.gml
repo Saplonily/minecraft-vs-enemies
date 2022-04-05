@@ -49,7 +49,7 @@ function tte_ext_input_draw(){
                         false
                     );
                     else if( l == selStartLine ) draw_rectangle(
-                        string_width( string_copy( lines[| l], 1, selStartCol-1 ) ) - scrollx,
+                        string_width( string_copy( lines[|l], 1, selStartCol-1 ) ) - scrollx,
                         ch - scrolly,
                         string_width( lines[| l] ) - scrollx,
                         ch + max( mh, string_height( lines[| l] ) )-1 - scrolly,
@@ -59,7 +59,7 @@ function tte_ext_input_draw(){
                         -scrollx,
                         ch - scrolly,
                         string_width( string_copy( lines[| l], 1, selEndCol-1 ) ) - scrollx,
-                        ch + max( mh, string_height( lines[| l] ) )-1 - scrolly,
+                        ch + max( mh, string_height( lines[|l] ) )-1 - scrolly,
                         false
                     );
                     else draw_rectangle(

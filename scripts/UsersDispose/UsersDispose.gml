@@ -60,6 +60,9 @@ function SaveUserAllInfos()
 	ini_write_real("Settings","MusicVolume",global.musicVolume);
 	ini_write_real("Settings","SoundVolume",global.musicVolumeAudio);
 	ini_write_real("Settings","SetFps",global.SetFps);
+	ini_write_real("Settings","WindowWidth",window_get_width());
+	ini_write_real("Settings","WindowX",window_get_x())
+	ini_write_real("Settings","WindowY",window_get_y())
 }
 
 function LoadUser(file)
@@ -81,6 +84,14 @@ function LoadUser(file)
 	global.musicVolumeAudio = ini_read_real("Settings","SoundVolume",0.8);
 	SetSoundVolume(global.musicVolumeAudio);
 	global.SetFps = ini_read_real("Settings","SetFps",40);
+	WindowWidth = ini_read_real("Settings","WindowWidth",800);
+	window_set_size(WindowWidth,WindowWidth/8*6);
+	var xx = ini_read_real("Settings","WindowX",-1);
+	var yy = ini_read_real("Settings","WindowY",-1);
+	if xx!=-1
+	{
+		window_set_position(xx,yy);
+	}
 	ScrAlarmInit();
 	AlarmRefresh();
 	ini_close();

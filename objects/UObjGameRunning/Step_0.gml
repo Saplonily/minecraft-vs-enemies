@@ -10,6 +10,7 @@ if window_has_focus()
 		//camera_set_view_size(view_camera,window_get_width(),window_get_height())
 		surface_resize(application_surface,window_width,window_width/8*6)
 		window_set_size(window_width,window_width/8*6)
+		WindowWidth = window_width;
 	}
 }
 TimerSave -= 1;

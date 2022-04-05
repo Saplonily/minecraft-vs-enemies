@@ -1,4 +1,5 @@
 event_inherited();
+if lvl.Pause exit;
 if !lvl.GUICanTap exit;
 if lvl.RedStone>=25
 {

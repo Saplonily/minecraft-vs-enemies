@@ -1,3 +1,4 @@
+draw_self();
 if lvlItem(lvl.HandItem)==ItemCard
 if MouseOnMe()
 {

@@ -6,7 +6,7 @@ function MessageBox() {
 	var mi = instance_exists(ObjMessageBox);
 	var idd;
 	if !mi
-	    idd = instance_create_depth(0,0,GUIDepth,ObjMessageBox);
+	    idd = instance_create_depth(0,0,GUIDepth+1,ObjMessageBox);
 	else
 	    idd = ObjMessageBox.id;
 	idd.Text = argument[0];

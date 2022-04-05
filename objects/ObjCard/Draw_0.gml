@@ -36,7 +36,7 @@ if CD>0
     draw_rectangle_colour(x,y,x+49,y+74-74*(1-CD/MaxCD),c_black,c_black,c_black,c_black,0);
     draw_set_alpha(1);
 }
-if !ForShow&&MouseOnMe()&&lvl.HandItem==null
+if !ForShow&&!lvl.Pause&&MouseOnMe()&&lvl.HandItem==null
 {
     if(!Locked)
         CardDrawInformation(x+sprite_width/2,y+sprite_height,GetWeaponName(Weapon))
